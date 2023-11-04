@@ -1,0 +1,128 @@
+/* Base Styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Changed to pure white background */
+}
+
+#cv {
+    max-width: 900px; /* Set a max-width for larger screens */
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f8f8; /* A lighter shade for the CV background */
+    border: 1px solid #e4e4e4; /* Subtle border */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03), 0 6px 6px rgba(0, 0, 0, 0.1); /* Updated shadow for depth */
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 4px solid #3498db; /* Slightly thicker blue border for emphasis */
+}
+
+header h1 {
+    margin: 0;
+    color: #333; /* Changed to a darker gray for better readability */
+    font-size: 2em; /* Larger font size for name */
+}
+
+header p {
+    margin: 5px 0 15px; /* Adjusted spacing */
+    font-style: normal; /* Changed to normal from italic */
+    color: #555; /* Softer color */
+    font-size: 1.2em; /* Slightly larger font size */
+}
+
+h2 {
+    border-bottom: 2px solid #dddddd; /* Lighter border for section titles */
+    padding-bottom: 5px;
+    color: #333; /* Darker text for better contrast */
+    font-size: 1.5em; /* Increased size for headings */
+}
+
+/* Contact Details */
+#contact {
+    width: 100%; /* Full width for better use of space */
+    margin-bottom: 20px; /* Added bottom margin */
+    background-color: lavender;
+}
+
+#contact address p {
+    margin: 10px 0;
+    border-left: 4px solid #3498db;
+    padding-left: 15px;
+    font-size: 1em; /* Adjusted font size */
+}
+
+/* Clearing the floats for the sections below the contact */
+#education p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-period1 {
+    font-size: 1.25em;
+    color: #555;
+    margin-left: auto;
+}
+
+#education,
+#skills,
+#experience {
+    clear: both;
+}
+
+/* Skills */
+#skills li {
+    list-style-type: none;
+    margin: 10px 0;
+    border-left: 4px solid #3498db;
+    padding-left: 15px;
+    font-size: 1em;
+}
+
+/* Experience */
+#experience article {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff; /* Pure white for a clean look */
+    border: 1px solid #e4e4e4; /* Added border */
+    border-radius: 8px; /* More pronounced rounded corners */
+}
+
+#experience article h3 {
+    color: steelblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-period {
+    font-size: 0.8em;
+    color: #555;
+}
+
+#experience article p {
+    margin: 10px 0;
+    line-height: 1.4; /* Improved line spacing */
+}
+
+/* Media Queries for Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    #cv {
+        width: 90%; /* More width for smaller screens */
+    }
+
+    header h1 {
+        font-size: 1.8em; /* Slightly smaller font size on small screens */
+    }
+
+    #contact {
+        width: auto; /* Auto width for flex */
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
