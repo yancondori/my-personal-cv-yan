@@ -1,0 +1,24 @@
+
+Para publicar pagina en github
+
+1. Ir a repositorio
+2. Ir Settings
+3. Icono 'Page', barra izquierda
+4. Se visualizara
+
+GitHub Pages
+GitHub Pages is designed to host your personal, organization, or project pages from a GitHub repository.
+
+Your site is live at https://yancondori.github.io/my-personal-cv-yan/
+Last deployed by @yancondori yancondori 11 minutes ago
+
+Impotante:
+Esta pagina es la por defecto de index.html
+https://yancondori.github.io/my-personal-cv-yan/
+
+
+Esta pagina es la por defecto de index.html, anadir nuevo html al URL /yancv.html,
+para poder visualizar las actualizaciones  
+
+https://yancondori.github.io/my-personal-cv-yan/yancv.html
+
