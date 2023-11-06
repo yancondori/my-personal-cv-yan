@@ -22,11 +22,18 @@ body {
     /* Border around the CV */
 }
 
+.training {
+    background-color: aquamarine;
+    z-index: 3;
+    }
+
+
 header {
     text-align: center;
     margin-bottom: 20px;
     /* Space below the header */
 }
+
 
 header h1 {
     color: #333;
@@ -42,6 +49,8 @@ header p {
 
 /* Styling for each section's title */
 h2 {
+    position: relative;
+    top: 1500px;
     background-color: #f4f4f4;
     /* Light gray background */
     padding: 10px;
